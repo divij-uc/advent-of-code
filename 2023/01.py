@@ -1,16 +1,5 @@
 # %%
-import requests
-import os
-import dotenv
-
-
-def get_inp(url="https://adventofcode.com/2023/day/1/input"):
-    dotenv.load_dotenv("../.session_cookie")
-    resp = requests.get(
-        url,
-        cookies={"session": os.environ["SESSION"]},
-    )
-    return resp.text.splitlines()
+from get_inp import get_inp
 
 
 def solve_1(inp):
@@ -117,4 +106,3 @@ if __name__ == "__main__":
     print("puz_2", res_2)
 
 # %%
-# 54578
