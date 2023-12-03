@@ -99,7 +99,7 @@ def solve_2(inp):
 
 
 if __name__ == "__main__":
-    inp = get_inp()
+    inp = get_inp().splitlines()
     res_1 = solve_1(inp)
     res_2 = solve_2(inp)
     print("puz_1", res_1)

@@ -59,7 +59,7 @@ def solve_2(inp):
 
 
 if __name__ == "__main__":
-    inp = get_inp(2)
+    inp = get_inp(2).splitlines()
     res_1 = solve_1(inp)
     res_2 = solve_2(inp)
     print(res_1)

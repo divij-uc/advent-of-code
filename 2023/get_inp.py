@@ -10,4 +10,4 @@ def get_inp(day=1):
         url,
         cookies={"session": os.environ["SESSION"]},
     )
-    return resp.text.splitlines()
+    return resp.text
