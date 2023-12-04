@@ -104,5 +104,3 @@ if __name__ == "__main__":
     res_2 = solve_2(inp)
     print("puz_1", res_1)
     print("puz_2", res_2)
-
-# %%

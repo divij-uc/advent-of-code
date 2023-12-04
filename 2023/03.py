@@ -135,4 +135,3 @@ if __name__ == "__main__":
     print(res_1)
     res_2 = solve_2(inp)
     print(res_2)
-# %%
